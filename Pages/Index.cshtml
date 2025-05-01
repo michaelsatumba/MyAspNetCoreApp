@@ -17,7 +17,10 @@
         <p>Products</p>
         <p>Applications</p>
         <p>About</p>
-        <p>Search Bar</p>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
     </div>
 </div>
 
@@ -59,51 +62,105 @@
 
 @* Div 3 *@
 @* Pictures *@
-<div>
-    <div>
-        <p>Carousel</p>
+<div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://picsum.photos/id/183/932/328" class="d-block w-75 mx-auto" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="https://picsum.photos/id/133/932/328" class="d-block w-75 mx-auto" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="https://picsum.photos/id/111/932/328" class="d-block w-75 mx-auto" alt="Image 3">
+        </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
 
 @* Div 4 *@
 @* Pictures *@
-<div>
-    <p>Pictures</p>
+<div class="text-center px-5">
+    <img src="images/cars.png" alt="My Image" class="img-fluid w-75">
 </div>
 
 @* Div 5 *@
 @* Title  *@
 @* Pictures *@
-<div>
+<div class="text-center mt-4">
     <div>
-        <p>Willwood Products Catalog</p>
-        <p>Designed • Tested • Manufactured in U.S.A.</p>
+        <h2>Willwood Products Catalog</h2>
+        <p class="text-blue">Designed • Tested • Manufactured in U.S.A.</p>
         <p>ESTABLISHED 1977</p>
     </div>
     <div>
-        <p>grid pictures</p>
+        <div class="text-center px-5">
+            <img src="images/parts.png" alt="My Image" class="img-fluid w-75">
+        </div>
     </div>
 </div>
 
 @* Div 6 *@
 @* Schedule *@
-<div>
+<div class="px-5">
     <div>
-        <p>SHOWS & EVENTS CALENDER</p>
-    </div>
+    <h2 class="text-blue">SHOWS & EVENTS CALENDAR</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>Date</th>
+                <th>Booth/Area</th>
+                <th>Place</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>C10 Nationals - Texas</td>
+                <td>May 09 - May 10, 2025</td>
+                <td>Booth #123</td>
+                <td>Texas Motor Speedway - Forth Worth, TX</td>
+            </tr>
+            <tr>
+                <td>Overland Expo West</td>
+                <td>May 16 - May 18, 2025</td>
+                <td>Area A</td>
+                <td>FT. Tuthill County Park - Flagstaff, AZ</td>
+            </tr>
+            <tr>
+                <td>Goodguys 19th BASF Nashville Nationals</td>
+                <td>May 16 - May 18, 2025</td>
+                <td>Booth #456</td>
+                <td>Nashville Superspeedway - Lebanon, TN</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
     <div>
-        <p>table</p>
+        <p class="text-blue text-xxs">View more Shows & Events ...</p>
     </div>
 </div>
 
 @* Div 7 *@
 @* Video *@
 <div>
-    <div>
-        <p>Wilwood's Road to SEMA 2024</p>
+    <div class="text-center">
+        <p><b>Wilwood's Road to SEMA 2024</b></p>
     </div>
-    <div>
-        <p>Video</p>
+    <div class="text-center">
+        <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/yovrUxH89BQ" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
     </div>
 </div>

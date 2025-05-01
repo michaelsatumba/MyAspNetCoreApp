@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MyAspNetCoreApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -20,32 +21,42 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Index">AUTOMOTIVE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">RACING</a>
-                        </li>
-                        <li class="nav-item"></li>
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">UTV</a>
-                        </li>
-                        <li class="nav-item"></li>
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">INDUSTRIAL/OEM</a>
-                        </li>
-                        <li class="nav-item"></li>
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">NEWS/MEDIA</a>
-                        </li>
-                        <li class="nav-item"></li>
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">TECH SUPPORT</a>
-                        </li>
-                        <li class="nav-item"></li>
-                            <a class="nav-link" asp-area="" asp-page="/Privacy">WILLWOOD STORE</a>
-                        </li>
-                    </ul
-                    @* facebook *@
-                    @* x *@
-                    @* youtube *@
-                    @* instagram *@
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-page="/Index">AUTOMOTIVE</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-page="/Privacy">RACING</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-page="/Privacy">UTV</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-page="/Privacy">INDUSTRIAL/OEM</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-page="/Privacy">NEWS/MEDIA</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-page="/Privacy">TECH SUPPORT</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-page="/Privacy">WILLWOOD STORE</a>
+    </li>
+</ul>
+                <div class="d-flex align-items-center">
+                <a href="https://facebook.com" target="_blank" class="text-decoration-none me-3">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-decoration-none me-3">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="text-decoration-none me-3">
+                    <i class="fab fa-youtube fa-lg"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="text-decoration-none">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+            </div>
                 </div>
             </div>
         </nav>
@@ -56,11 +67,102 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - MyAspNetCoreApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
+<footer class="mt-5">
+    <div class="container">
+        <div class="row text-xxs">
+            <div class="col-md-2">
+    <h6>General</h6>
+    <ul class="list-unstyled list-items-blue">
+        <li>About Wilwood</li>
+        <li>Contact Us</li>
+        <li>Give Us Feedback</li>
+        <li>New Dealer Inquiry</li>
+        <li>Newsletter</li>
+        <li>Browse Our Gallery</li>
+    </ul>
+</div>
+<div class="col-md-2">
+    <h6>Product Info</h6>
+    <ul class="list-unstyled list-items-blue">
+        <li>Data Sheet</li>
+        <li>Flyers</li>
+        <li>Press Releases</li>
+        <li>Retail Price List</li>
+        <li>Approved NSN</li>
+    </ul>
+</div>
+<div class="col-md-2">
+    <h6>Brake Kits</h6>
+    <ul class="list-unstyled list-items-blue">
+        <li>Search Vehicle</li>
+        <li>Aftermarket Spindles</li>
+        <li>Rear End/Axle Flange</li>
+        <li>All Brake Kits</li>
+        <li>Calipers</li>
+        <li>Rotors</li>
+    </ul>
+</div>
+<div class="col-md-2">
+    <h6>Products</h6>
+    <ul class="list-unstyled list-items-blue">
+        <li>Brake Fluid</li>
+        <li>Brake Pads</li>
+        <li>Hats</li>
+        <li>Hubs</li>
+        <li>Master Cylinders</li>
+        <li>Pedal Assemblies</li>
+    </ul>
+</div>
+<div class="col-md-2">
+    <h6>Tech Support</h6>
+    <ul class="list-unstyled list-items-blue">
+        <li>Get the FAQs</li>
+        <li>How To Instructions</li>
+        <li>How To Videos</li>
+        <li>Tech Center</li>
+        <li>Technical Tips</li>
+        <li>Troubleshooting</li>
+    </ul>
+</div>
+<div class="col-md-2">
+    <h6>Contact Wilwood</h6>
+    <ul class="list-unstyled list-items-blue">
+        <li>Phone: (805) 388-1188</li>
+        <li>6:00am - 5:00pm PST</li>
+        <li>Monday - Friday</li>
+        <li>Find a Dealer</li>
+        <li>Ask a Question</li>
+        <li>Email Us</li>
+    </ul>
+</div>
         </div>
-    </footer>
+        <div class="d-flex align-items-center justify-content-center">
+                <a href="https://facebook.com" target="_blank" class="text-decoration-none me-3">
+                    <i class="fab fa-facebook fa-lg"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-decoration-none me-3">
+                    <i class="fab fa-twitter fa-lg"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="text-decoration-none me-3">
+                    <i class="fab fa-youtube fa-lg"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" class="text-decoration-none">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+            </div>
+        <div class="text-center mt-4 text-xxs">
+            <p><span class="text-red">All images shown are for illustrative purposes only. Actual product received may be different than what is portrayed on the web site.</span>
+                <br>
+Wilwood makes every effort to maintain our web site to ensure the accuracy of prices and product information. However, product information and prices are subject to change without notice. 
+<br>
+Please call (805) 388-1188 before ordering to verify current prices and product information.
+<br>
+<br>
+<b>Copyright © 1977 - 2025 Wilwood Engineering, Inc. - All Rights Reserved</b>
+</p>
+        </div>
+    </div>
+</footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

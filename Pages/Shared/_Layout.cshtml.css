@@ -54,3 +54,21 @@ button.accept-policy {
 #text-white{
   color: white
 }
+
+.text-xxs {
+  font-size: xx-small;
+}
+
+.text-red {
+  color: red;
+}
+
+.list-items-blue li {
+  color: blue;
+}
+
+.nav-link:focus,
+.nav-link:active {
+    background-color: red;
+    color: white; /* Optional: Change text color for better contrast */
+}
