@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\michaels\\.nuget\\packages\\": {}
+    "/Users/michaelsatumba/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\michaels\\Documents\\playground\\MyAspNetCoreApp\\MyAspNetCoreApp.csproj",
+      "projectUniqueName": "/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/MyAspNetCoreApp.csproj",
       "projectName": "MyAspNetCoreApp",
-      "projectPath": "C:\\Users\\michaels\\Documents\\playground\\MyAspNetCoreApp\\MyAspNetCoreApp.csproj",
-      "packagesPath": "C:\\Users\\michaels\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\michaels\\Documents\\playground\\MyAspNetCoreApp\\obj\\",
+      "projectPath": "/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/MyAspNetCoreApp.csproj",
+      "packagesPath": "/Users/michaelsatumba/.nuget/packages/",
+      "outputPath": "/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\michaels\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/michaelsatumba/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
