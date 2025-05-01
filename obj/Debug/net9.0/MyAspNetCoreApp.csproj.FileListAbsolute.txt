@@ -189,7 +189,13 @@ C:/Users/michaels/Documents/playground/MyAspNetCoreApp/obj/Debug/net9.0/compress
 /Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/MyAspNetCoreApp.pdb
 /Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/MyAspNetCoreApp.genruntimeconfig.cache
 /Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/ref/MyAspNetCoreApp.dll
-/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/compressed/t0axjtj50i-ljzt0jd03a.gz
 /Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/compressed/aytx7rq82i-fr7q2aak1r.gz
 /Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/compressed/nmgl75trh6-h3eyywfjxg.gz
 /Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/compressed/7rskck1sbc-h3eyywfjxg.gz
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/bin/Debug/net9.0/publish/web.config
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/bin/Debug/net9.0/publish/appsettings.Development.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/bin/Debug/net9.0/publish/appsettings.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/bin/Debug/net9.0/publish/MyAspNetCoreApp.deps.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/bin/Debug/net9.0/publish/MyAspNetCoreApp.runtimeconfig.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/bin/Debug/net9.0/publish/MyAspNetCoreApp.staticwebassets.endpoints.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/obj/Debug/net9.0/compressed/t0axjtj50i-ljzt0jd03a.gz

@@ -11,15 +11,60 @@
 @* Phone *@
 @* Search *@
 <div class="container">
-    <div class="d-flex justify-content-between">
-        <p>Disc Brakes Wilwood</p>
-        <p>Brakes kits</p>
-        <p>Products</p>
-        <p>Applications</p>
-        <p>About</p>
+    <div class="d-flex justify-content-between bg-gray">
+        <div>
+            <img src="images/logo.png" alt="Logo" class="img-fluid w-75">
+        </div>
+                <!-- Dropdown 1: Brakes Kits -->
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
+                Brakes Kits
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a class="dropdown-item" href="#">Disc Brakes</a></li>
+                <li><a class="dropdown-item" href="#">Drum Brakes</a></li>
+                <li><a class="dropdown-item" href="#">Conversion Kits</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown 2: Products -->
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a class="dropdown-item" href="#">Brake Pads</a></li>
+                <li><a class="dropdown-item" href="#">Rotors</a></li>
+                <li><a class="dropdown-item" href="#">Calipers</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown 3: Applications -->
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenu3" data-bs-toggle="dropdown" aria-expanded="false">
+                Applications
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                <li><a class="dropdown-item" href="#">Automotive</a></li>
+                <li><a class="dropdown-item" href="#">Industrial</a></li>
+                <li><a class="dropdown-item" href="#">Racing</a></li>
+            </ul>
+        </div>
+
+        <!-- Dropdown 4: About -->
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenu4" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                <li><a class="dropdown-item" href="#">Company History</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+            </ul>
+        </div>
         <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
         </form>
     </div>
 </div>
@@ -87,7 +132,7 @@
 
 @* Div 4 *@
 @* Pictures *@
-<div class="text-center px-5">
+<div class="text-center px-5 mt-4">
     <img src="images/cars.png" alt="My Image" class="img-fluid w-75">
 </div>
 

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/images/cars.png"
     },
     {
+      "Id": "/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
       "Id": "/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/wwwroot/images/parts.png",
       "PackagePath": "staticwebassets/images/parts.png"
     },

@@ -1,0 +1,7 @@
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/publish/MyAspNetCoreApp
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/publish/appsettings.Development.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/publish/appsettings.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/publish/MyAspNetCoreApp.dll
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/publish/MyAspNetCoreApp.deps.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/publish/MyAspNetCoreApp.runtimeconfig.json
+/Users/michaelsatumba/Documents/GitHub/MyAspNetCoreApp/publish/MyAspNetCoreApp.pdb
